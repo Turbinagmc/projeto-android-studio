@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+
+    <TextView
+        android:id="@+id/textViewcachorro"
+        android:layout_width="412dp"
+        android:layout_height="416dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#98FBF6F6"
+        android:text='O cão (nome científico: Canis lupus familiaris),[1] no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos, subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos. Ao longo dos séculos, através da domesticação, o ser humano realizou uma seleção artificial dos cães por suas aptidões, características físicas ou tipos de comportamentos. O resultado foi uma grande diversidade de raças caninas, as quais variam em pelagem e tamanho dentro de suas próprias raças, atualmente classificadas em diferentes grupos ou categorias. As designações vira-lata (no Brasil) ou rafeiro (em Portugal) são dadas aos cães sem raça definida ou mestiços descendentes.  Com expectativa de vida que varia entre dez e vinte anos, o cão é um animal social que, na maioria das vezes, aceita o seu dono como o "chefe da matilha" e possui várias características que o tornam de grande utilidade para o homem. Possui excelente olfato e audição, é bom caçador e corredor vigoroso, relativamente dócil e leal, inteligente e com boa capacidade de aprendizagem. Deste modo, o cão pode ser adestrado para executar um grande número de tarefas úteis, como um cão de caça, de guarda ou pastor de rebanhos, por exemplo. Assim como o ser humano, também é vítima de doenças como o resfriado, a depressão e o mal de Alzheimer, bem como das características do envelhecimento, como problemas de visão e audição, artrite e mudanças de humor.  A afeição e a companhia deste animal são alguns dos motivos da famosa frase: "O cão é o melhor amigo do homem", já que não há registro de amizade tão forte e duradoura entre espécies distintas quanto a de humano e cão. Esta relação figura em filmes, livros e revistas, que citam, inclusive, diferentes relatos reais de diferentes épocas e em várias nações. Entre os cães mais famosos que viveram e marcaram sociedades estão Balto, Laika e Hachiko. Na mitologia, o Cérbero é dito um dos mais assustadores seres. No cinema, Lassie é um dos mais difundidos nomes e, na animação, Pluto, Snoopy e Scooby-Doo há décadas fazem parte da infância de várias gerações.'
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_width="433dp"
+        android:layout_height="366dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/cachoo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

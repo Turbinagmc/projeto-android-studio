@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.petshare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+
+        android:allowBackup="true"
+
+
+        android:label="Petshare"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="false" />
+        <meta-data android:name="android.webkit.WebView.MetricsOptOut"
+            android:value="true" />
+        <activity android:name=".MainActivity">
+                       <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainactivity2"
+            android:exported="true"/>
+        <activity android:name=".classes.Novo_registro"
+            android:exported="true"/>
+        <activity android:name=".classes.curio"
+            android:exported="true"/>
+        <activity android:name=".classes.listar"
+            android:exported="true"/>
+        <activity android:name=".classes.artigos"
+            android:exported="true"/>
+        <activity android:name=".classes.curiosidadescachorro"
+            android:exported="true"/>
+        <activity android:name=".classes.curiosidadegato"
+            android:exported="true"/>
+        <activity android:name=".classes.lojas"
+            android:exported="true"/>
+        <activity android:name=".classes.art1"
+            android:exported="true"/>
+        <activity android:name=".classes.art2"
+            android:exported="true"/>
+        <activity android:name=".classes.animais_desaparecidos" />
+        <activity android:name=".classes.registro_animais" />
+        <activity android:name=".classes.lista_animais" />
+    </application>
+
+</manifest>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="457dp"
+        android:layout_height="225dp"
+        android:background="#874C4C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="301dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/dog3" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O homem, como um ser dotado de racionalidade por excelência, utilizou e utiliza a sua capacidade de instrumentalização das coisas para se servir de tudo aquilo que está ao seu alcance para impor seu domínio, e nisto, obviamente, incluem-se elementos da natureza, abarcando-se os animais." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quando se diz ser o homem um ser dotado de racionalidade por excelência, está-se a dizer que, dentre os demais animais, tem uma capacidade cognitiva singular, mas, hodiernamente, como apontam diversos estudos, não pode-se mais afirmar que o ser humano é o único animal dotado de racionalidade, pois, muitos animais a detêm, mesmo que em menor grau." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Segundo o biólogo Marc Bekoff, da Universidade do Colorado, nos EUA, cachorros podem ser tão racionais que fazem planos para o futuro e elefantes ficam de luto quando morre um amigo ou parente. Um estudo recente da Universidade de Goethe, na Alemanha, revela que os corvos são capazes de se reconhecer no espelho." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Golfinhos e macacos, por exemplo, raciocinam quando se veem diante de novos desafios e decidem se precisam rever as estratégias para enfrentá-los." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sob um enfoque religioso, os animais, por seu Criador, Deus, sempre foram tidos como seres relevantes. Lembremos o mandamento de Deus dado a Noé para que fizesse entrar na arca um casal de cada um dos seres vivos, macho e fêmea, para conservá-los vivos." />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madre Teresa de Calcutá, laureada com o Prêmio Nobel da Paz em 1979, com uma vida devotada aos pobres e doentes de que religião fosse, nos deixou a seguinte mensagem: “Os animais foram criados pela mesma mão caridosa de Deus que nos criou. É nosso dever protegê-los e promover o seu bem-estar”." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Convém observar também que os animais, assim como nós, são considerados sencientes, sendo esta a capacidade de sentir e vivenciar sentimentos como dor, angústia, solidão, amor, alegria, raiva, etc." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faz-se estas breves considerações iniciais para se demonstrar que a crueldade contra animais não possui justificativa sob nenhuma perspectiva, seja ela filosófica, científica ou religiosa." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partindo-se destas bases valorativas provenientes da ciência, religião e outras fontes, é que, internacionalmente, elaborou-se a Declaração Universal dos Direitos dos" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animais – Unesco – ONU (Bruxelas – Bélgica, 27 de janeiro de 1978). Esta norma cuida-se de um tratado de direito internacional à qual o Brasil é signatário. Isto quer dizer que as disposições desta Declaração possuem incidência em nosso país, sendo de observância e cumprimento obrigatórios por todos os cidadãos brasileiros. Vejamos dois trechos desta Declaração:" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art. 2º. [...] c) Cada animal tem o direito à consideração, à cura e à proteção do homem.  Art. 6º. [...] O abandono de um animal é um ato cruel e degradante." />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A atual Constituição Federal de nosso País, sendo a primeira Lei Maior a sistematizar a questão do meio ambiente, trouxe importantíssima proteção jurídica aos animais quando estabelece no inciso VII, § 1º, do artigo 225, ser incumbência do Poder Público “proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade”." />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Impende-se salientar que o inciso VII é trazido como uma incumbência do Poder Público, mas o caput do artigo 225 preceitua como dever do Poder Público e da COLETIVIDADE a defesa do meio ambiente." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A fauna a que a Constituição Federal menciona está num sentido lato, ou seja, alberga tanto a fauna silvestre, a fauna exótica e a fauna doméstica, estando nesta última os cães e gatos possuidores de tutores e os que foram abandonados nos logradouros públicos à própria sorte." />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="De todo modo, de nada adiantaria nossa Carta Magna trazer um mandado de criminalização implícito se o legislador infraconstitucional não editasse uma norma que tornasse crime a prática de abuso e maus-tratos de animais. Consoante a Constituição Federal, a Lei nº 9.605, de 12 de fevereiro de 1998 – Lei de Crimes Ambientais prescreve no seu artigo 32 a seguinte conduta delituosa:" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art. 32. Praticar ato de abuso, maus-tratos, ferir ou mutilar animais silvestres, domésticos ou domesticados, nativos ou exóticos:  Pena - detenção, de três meses a um ano, e multa." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verificamos que há proteção normativa no plano internacional concernente aos animais, e, no plano interno, há guarida constitucional e legislativa com o escopo de defender os animais de atos insanos do ser antrópico." />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mesmo assim, não se pode dizer que estamos numa condição ideal pelo simples fato de haver normas criminalizadoras dos atos cruéis contra os animais." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

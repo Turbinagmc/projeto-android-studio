@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="481dp"
+        android:layout_height="412dp"
+        android:background="#835757"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raísa Duquia GiumelliI; Marciane Cleuri Pereira SantosII" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IGraduada em Psicologia na Universidade da Região de Joinville (Univille), cursando especialização em Psicologia clínica na abordagem gestáltica no Centro de Estudos de Gestalt-Terapia de Santa Catarina (Ceg), Psicóloga Clínica e voluntária no Centro de Estudos e Orientação da Família (Cenef). Endereço Institucional: Rua Germano Wetzel, nº 128. Bairro: Bom Retiro. Joinville-SC. CEP: 89223-010. E-mail: raisapsicologia@gmail.com IIPsicóloga clínica, Especialista em Gestalt Terapia, Mestre em Saúde e Meio Ambiente pela Universidade da Região de Joinville (Univille), Professora e Supervisora Clínica de Estágio de Psicologia Clínica na Universidade da Região de Joinville (Univille)" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESUMO" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O presente artigo apresenta uma pesquisa sobre a influência da convivência com animais de estimação na vida das pessoas a partir da percepção dos tutores. Os voluntários para a realização da pesquisa foram seis estudantes universitários, tutores de no mínimo um animal de estimação. Através da aplicação de entrevistas semiestruturadas, foi possível coletar o perfil dos participantes, as percepções que eles possuem sobre a influência dos animais de estimação na vida das pessoas, os benefícios, os aspectos negativos e os sentimentos envolvidos nessa relação. A média de idade dos participantes da pesquisa foi de 22 anos, sendo dois participantes do sexo masculino e quatro do sexo feminino. Analisando os resultados obtidos através do método fenomenológico observou-se que todos os entrevistados trouxeram elementos positivos na relação com seus animais, enquanto os aspectos negativos foram associados com cuidados de higiene, doenças e morte do animal." />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introdução" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atualmente, segundo a Associação Brasileira da Indústria de Produtos para Animais de Estimação, o Brasil é o quarto país com a maior população de animais do mundo - cerca de 106 milhões, ficando atrás da China, Estados Unidos e Reino Unido (Abinpet, 2014), e é o segundo maior país no mercado de pets1, perdendo somente para Estados Unidos (Walsh, 2009). Dentre os vários motivos para as pessoas obterem um animal de estimação, alguns são que esses animais são dotados de muita energia, interagem com o ser humano espontaneamente e possuem um amor incondicional por seus tutores (Nebbe, 2000). Na literatura internacional foram criadas escalas cujo objetivo é medir o vínculo estabelecido entre o homem e o animal, sendo alguns desses testes o Companion Animal Bonding Scale, Pet Attitude Scale-Modified and Pet Relationship Scale (Anderson, 2006)." />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Considerando a relevância que os animais possuem na vida das pessoas buscou-se com esta pesquisa identificar a influência do convívio com animais de estimação na vida das pessoas a partir da percepção dos tutores. Para isso, foram realizadas entrevistas com seis estudantes universitários da Universidade da Região de Joinville (Univille), que possuem algum animal de estimação, e então foram transcritas as percepções delas sobre a influência de conviver com um animal de estimação, os benefícios, aspectos negativos e sentimentos envolvidos nessa relação. Para a elaboração deste artigo foi utilizado o termo "tutor", que segundo o Dicionário de Língua Portuguesa Aurélio, é aquela pessoa no qual é o protetor e é confiada a tutela de cuidar. Termos como "dono" ou "proprietário" remetem a impressão de posse, olhando o animal como o objeto, e o intuito do artigo é discutir sobre uma relação entre seres vivos. Portanto, não foram usados esses termos.   ' />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. História da relação do Homem com o animal" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A interação dos animais com o ser humano aparece fortemente desde os tempos primitivos (Caetano, 2010). Estudos mostram que a interação homem-animal pode ter surgido a partir de um lobo que desenvolveu características mais dóceis ao se relacionar com o homem, e este o utilizou para auxílio na caça e para proteger sua moradia. Outra hipótese para o surgimento da relação homem-animal pode ter ocorrido na época de grandes temperaturas baixas e fome, durante a qual o homem utilizava o cão para se aquecer e retribuía o animal com restos de comida (Fuchs, 1987). Segundo Perls, Hefferline e Goodman (1997), o ser humano se ajusta de forma criativa no meio com o objetivo de satisfazer as principais necessidades do momento, a partir do que esse ambiente tem como possibilidades. Essa satisfação de necessidades traz ao ser humano um equilíbrio e é uma forma de ele se autorregular. Nesse sentido o animal, portanto, foi uma alternativa encontrada pelo homem para satisfazer sua necessidade de proteção e aquecimento. Barros (2008) traz também que já foram encontrados, em sítios arqueológicos, vários ossos de seres humanos enterrados junto com ossos de animais. Na idade moderna, os animais eram utilizados também como cães de guarda, como meio para levar carroças e trenós e acompanhar tropeiros e agricultores (Berzins, 2000). Na idade do bronze e do ferro, os cavalos eram muito utilizados como meio de transporte, por serem considerados mais rápidos que outros meios (Levine, 1999). Essa interação com os animais apareceu também na mitologia, com deuses que tinham a composição de animais misturados com humanos, representando valores, proteção e esperança (Dotti, 2005). Atualmente, é possível verificar que os animais estão presentes e possuem papel muitas vezes ativo em desenhos animados, filmes, livros e propagandas (Garcia, 2009)." />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Animais na legislação" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Os animais possuem também lugar nas Leis Federais, como o Decreto 24.645, de 10 de junho de 1934 (Brasil, 1934), que estabelece medidas de proteção aos animais e a Lei nº 9605 de 12 de fevereiro de 1998 (Brasil, 1998), que trata sobre os crimes ambientais, entre eles os maus tratos aos animais. A nível municipal, em Joinville, Santa Catarina, no mês de maio de 2013 foi elaborado o decreto nº 20.644 que regulamenta as disposições da lei complementar nº360 de dezembro de 2011, no qual discorre sobre a Proteção do Animal do Município de Joinville. Na cidade, todos os cães devem ser identificados através da implantação de microchips no corpo deles, por meio de um médico veterinário, contendo informações sobre o animal e seus tutores (Jornal do Município de Joinville, 2013)." />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Segundo o site da prefeitura de Araquari, Santa Catarina, em maio de 2014, o prefeito da cidade sancionou uma nova lei, de número 2917/2014 voltada à proteção dos animais, controle reprodutivo destes e conscientização das pessoas sobre abandono, maus tratos e incentivo à adoção. A prefeitura ainda estabeleceu uma parceria com a ONG Projeto Esperança Animal (PEAA) para elaboração de palestras nas escolas no qual um dos temas é a proteção dos animais. Além disso, a Fundação Municipal do Meio Ambiente (FUNDEMA) ajuda com a esterilização de animais de rua que posteriormente são submetidos à adoção. As pessoas da cidade de Araquari que adotam esses animais podem ter desconto do IPTU e são fiscalizados pela prefeitura para garantir todos os cuidados que o animal adotado precisa (Prefeitura de Araquari,2014)." />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. A relação do homem com o animal" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Os animais de estimação, além de uma companhia, são também utilizados para caça, proteção e auxílio de pessoas com dificuldades de locomoção (Garcia, 2009). Nesse sentido, pode-se dizer que essa é uma relação EU e ISSO, que Buber (1974) define como uma relação em que o "isso" é considerado um objeto para ser utilizado com uma finalidade.' />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Em determinados momentos esta relação torna-se EU-TU. Esse tipo de relação caracteriza-se por uma interação genuína com o outro, no qual reconhecemos e aceitamos a sua condição de ser existencial. O termo "tu" pode ser tanto uma pessoa, um elemento da natureza, uma divindade ou um animal. Tanto a relação "EU-TU", como a relação "EU- ISSO" são essenciais para o desenvolvimento humano (Buber, 1974).' />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="É importante considerar, além da perspectiva do homem, os benefícios e malefícios na perspectiva do animal de estimação nesta relação homem animal. Segundo Franco (2001) a interação do homem com o animal de estimação, mesmo se mostrando afetuosa, se caracteriza por uma relação de autoritarismo, visto que é o homem que decide sobre a liberdade do animal, quando quer dar carinho para ele, e se vai impedir a reprodução dele ou não, por meio da castração. Quando o animal é utilizado como instrumento em terapias, Dotti (2005) coloca que é importante verificar o quanto o trabalho realizado será benéfico para o animal também, não tornando uma atividade que cause estresse para ele, entre outras consequências." />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Segundo Garcia (2009), dentre os profissionais de saúde que utilizam animais para fins de tratamento, o psicólogo é o que menos utiliza esse recurso. Os profissionais que mais aproveitam são médicos, fisioterapeutas, veterinários, fonoaudiólogos e terapeutas ocupacionais e também eles são maioria nas autorias da literatura disponível sobre esse tema. Porém, esse mesmo autor ainda coloca que o trabalho com cães para intervir no comportamento das pessoas mexe com fenômenos psicológicos, sendo então uma função do profissional de psicologia." />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entretanto, apesar de todos os benefícios que o animal pode proporcionar ao ser humano, é preciso também considerar os aspectos negativos desta relação. A convivência com animais aumenta a transmissão de zoonoses e os tutores podem ter alergias ao pêlo do animal. Além disso, a perda de um animal, seja por doença, desaparecimento ou roubo, pode acarretar muito sofrimento e angústia ao tutor, inclusive depressão (Miranda, 2011)." />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="369dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="74dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ggggg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

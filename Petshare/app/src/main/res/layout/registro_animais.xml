@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/Bairro"
+                style=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe o bairro em que desapareceu:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/NumContato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="informe um numero para contato: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="informe a data do desaparecimento: "
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/AnimalDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe qual o animal desaparecido:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Raca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe a raça do animal:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe a cor do animal:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Porte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe o porte(tamanho) do animal:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Sexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Informe o sexo do animal:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Descricao"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:hint="Descrição detalhada do animal:"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="#6771C3"
+                android:text="regitrar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
